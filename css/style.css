@@ -1,0 +1,86 @@
+html, body{
+    height: 100%;
+    overflow: hidden;
+}
+
+main{
+    height: 80%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(to bottom, #b4e391, #b4a6e3);
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.highlight {
+    color: #f4f4f4;
+    font-weight: bold;
+}
+
+nav .menu {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav .menu li {
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav .menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav .menu li:hover {
+    background-color: #444;
+}
+
+.content {
+    background-color: black;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+ul {
+    text-align: left;
+    margin: 10px 0 20px;
+    padding-left: 20px;
+}
+
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.game-grid img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    padding: 10px;
+    padding-left: 50px;
+}
