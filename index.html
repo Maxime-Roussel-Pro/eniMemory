@@ -31,7 +31,22 @@
                 <li>Si les images sont différentes, les cartes se retournent faces cachées là où elles étaient.</li>
                 <li>La partie est terminée lorsque toutes les cartes ont été assemblées par paires.</li>
             </ul>
+            <div>
+                <select class="select" name="select" id="nbrCases">
+                    <option value="6">--Combien de cases ?--</option>
+                    <option value="8">8</option>
+                    <option value="10">10</option>
+                    <option value="12">12</option>
+                    <option value="14">14</option>
+                    <option value="16">16</option>
+                    <option value="18">18</option>
+                  </select>
+                  <button class="btn" type="button" id="btn">Start</button>
+            </div>
+            <br></br>
             <div class="gameGrid"></div>
+            <br></br>
+            <div class="error"></div>
             <p>Si vous voulez vous souvenir de votre score, inscrivez-vous via le formulaire.<br>
             Le jeu garde les <strong>5 meilleurs scores</strong>.<br>
             Si vous voulez relancer une partie, cliquez sur <strong>la barre d’espace</strong>.</p>
