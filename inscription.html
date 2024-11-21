@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENI - Memory - Accueil</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/inscription.css">
+    <script src="./js/inscription.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>ENI - <span class="highlight">MEMORY</span> - Accueil</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="inscription.html">S'inscrire</a></li>
+                <li><a href="connection.html">Se connecter</a></li>
+                <li><a href="profile.html">Profil</a></li>
+                <li><a href="jouer.html">Jouer</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="content">
+            <p>Bienvenue sur le site du Memory de l'ENI.<br>
+            Venez jouer avec nous et faites le meilleur score possible.</p>
+            <form class="form" method ="post" >
+                <ul>
+                    <li>
+                        <label for="name">Nom</label>
+                        <input class="input" type="text" id="name" name="userName"/>
+                    </li>
+                    <li>
+                        <label for="prenom">Prénom</label>
+                        <input class="input" type="text" id="prenom" name="prenom"/>
+                    </li>
+                    <li>
+                        <label for="email">Adresse mail</label>
+                        <input class="input" type="email" id="email" name="email"/>
+                    </li>
+                    <span id="emailFeedback" style="color: red;"></span>
+                    <li>
+                        <label for="mdp">Mot de passe </label>
+                        <input class="input" type="password" id="mdp" name="mdp"/>
+                    </li>
+                    <li>
+                        <label for="confirm">Confirmer votre mot de passe</label>
+                        <input class="input" type="password" id="mdp2" name="confirm"/>
+                    </li>
+                </ul>
+                <button type="button" class="btn" href="profile.html" onclick="getValue();">CONFIRMER</button>
+            </form>
+        </section>
+
+            
+    </main>
+</body>
+</html>
